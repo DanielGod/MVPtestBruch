@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity implements MainView  {
         setContentView(R.layout.activity_main);
         ButterKnife.inject(this);
         getData();
-        //这是在主分支上
+        //这是在test分支上，没问题，可以合并主分支
+
     }
 
     private void getData() {

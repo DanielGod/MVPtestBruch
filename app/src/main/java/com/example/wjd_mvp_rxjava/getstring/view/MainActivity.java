@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements MainView  {
         ButterKnife.inject(this);
         getData();
         //这是在test分支上
+
     }
 
     private void getData() {

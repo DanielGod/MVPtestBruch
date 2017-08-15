@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements MainView  {
         setContentView(R.layout.activity_main);
         ButterKnife.inject(this);
         getData();
+        //这是在主分支上
     }
 
     private void getData() {
